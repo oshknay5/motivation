@@ -1,0 +1,71 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1509909756405-be0199881695?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzB8fG1vdGl2YXRpb258ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    }
+    
+    #container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    }
+    #btn{
+        background-color: #fff;
+        border-radius: 50px;
+        padding: 10px;
+        font-size: 30px;
+        border: 1px solid #FF4848;
+        font-family: 'Lobster', cursive;
+        position: fixed;
+    }
+    #par{
+        display: none;
+        background-color: #fff;
+        border-radius: 50px;
+        padding: 20px;
+        font-size: 28px;
+        border: 3px solid #48d4ff;
+        font-family: 'Lobster', cursive;
+        margin-top: 500px;
+        width: 70%;
+        text-align: center;
+
+    }
+    @media all and (max-width:800px){
+        #par{
+          font-size: 30px;
+          margin-top: 320px;
+           width: 80%;
+          }
+      #btn{
+          font-size: 30xp;
+          width: 80%;
+         
+          }
+      }
+    @media all and (max-width:500px){
+  #par{
+    font-size: 20px;
+    margin-top: 320px;
+    width: 80%;
+    }
+ 
+#btn{
+    font-size: 20px;
+    width: 80%;
+    }
+}
+
+@media all and (max-width:300px){
+#par{
+font-size: 15px;
+margin-top: 330px;
+width: 80%;
+}
+#btn{
+font-size: 15px;
+width: 80%;
+}
+}
